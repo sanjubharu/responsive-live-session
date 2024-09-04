@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        my first web page
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div id="navbar">
+        <img id="pic" alt="jovian logo"
+            src="https://bookface-images.s3.amazonaws.com/logos/9c630503bfaf09e017d40c97dae09e6521a73c2d.png?1620030217">
+    </div>
+    <img id="logo" src="https://fattirebiketours.com/app/uploads/2021/11/paris-olympics-eiffel-tower-2024.jpg"
+        alt="Olympics">
+    <h1>About Jovian</h1>
+
+
+
+
+    <div id="about">
+
+        <div id="ct">
+            <p style="margin-top:0" ;>An online teaching platform
+                for web technologies.
+                we have industry certified experts over <span style="color:Red;">20</span> years across the
+                world.Generate random paragraphs for creative writing, writers' block, programming or other purposes.
+                Choose the
+                number of paragraphs and get free, human-written text with different topics and stylesse</p>
+            <p> We also offer 2 industry focused bootcamps
+            <ol>
+                <li>
+
+                    <a href="https://jovian.com/learn/web-development-with-html-and-css" target="_blank">
+                        Jovian full stack developer
+                    </a>
+                </li>
+                <li>
+                    <a href="https://jovian.com/learn/data-structures-and-algorithms-in-python" target="_blank">Jovian
+                        data
+                        scientist</a>
+                </li>
+            </ol>
+            </p>
+        </div>
+
+        <div id="ct2">
+            <img id="team" src="download.jpg" alt="teamwork" height="200" width="80%">
+        </div>
+    </div>
+
+
+
+    <h2>Job Oppurtunities</h2>
+    <div id="job">
+        <table id="jobs-table">
+
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted on</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td>Bangalore</td>
+                <td>India</td>
+                <td>₹12,00,000</td>
+                <td>March 3,2023</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Fullstack Developer</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>₹15,00,000</td>
+                <td>Feb 1,2023</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>SanFrancisco</td>
+                <td>USA</td>
+                <td>$1,75,000</td>
+                <td>Dec 22,2022</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Machine Learning Engineer</td>
+                <td colspan="2">Remote</td>
+                <td>$80,000</td>
+                <td>Sep 19,2022</td>
+            </tr>
+
+        </table>
+    </div>
+    <div id="application">
+        <h2>Submit Application</h2>
+        <form id="application-form" action="https://formbold.com/s/3OrGe" method="POST" enctype="multipart/form-data">
+            <div class="form-div">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" Required>
+            </div>
+            <div class="form-div">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email Id" Required>
+            </div>
+            <div class="form-div">
+                <label>Gender</label>
+                <div id="radio">
+                    <input id="female" type="radio" name="Gender" value="female" required>
+                    <label for="female">Female</label>
+                    <input id="male" type="radio" name="Gender" value="male" required>
+                    <label for="male">Male</label>
+
+                </div>
+
+            </div>
+            <div class="form-div">
+                <label for="number">Phone Number</label><br>
+                <input type="number" id="number" name="Phone Number" placeholder="+91 7337575095" Required>
+            </div>
+            <div class="form-div">
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" id="dob" name="Date of Birth" required>
+            </div>
+            <div class="form-div">
+                <label for="position">Position applied for</label><br>
+                <select id="position" name="Position Applied" Required>
+                    <option value="">Select a position</option>
+                    <option value="frontend developer">Frontend Developer</option>
+                    <option value="fullstack developer">Fullstack Developer</option>
+                    <option value="data scientist">Data Scientist</option>
+                    <option value="ML Engineer">Machine Learning Engineer</option>
+                </select>
+
+            </div>
+            <div class="form-div">
+                <label for="resume"> Upload Resume
+
+                </label>
+                <br>
+                <input id="resume" type="file" name="Resume" accept=".pdf,.jpeg,.docx" Required>
+
+
+            </div>
+            <div class="form-div">
+                <label for="cover letter">Cover Letter</label><br>
+                <textarea id="cover letter" type="text" name="cover letter"
+                    placeholder="Breif why you are suitable for the position.." rows="2" Required></textarea>
+            </div>
+            <div class="form-div">
+
+                <label for="terms">
+                    <input id="terms" type="checkbox" name="terms and conditions" value="agreed" required>
+                    I agree to the terms and conditions</label><br>
+
+            </div>
+            <div class="form-div">
+                <label for="submit">
+                    <input id="submit" type="submit" name="submit" value="Submit application">
+                </label>
+            </div>
+        </form>
+    </div>
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="https://jovian.com/learn/" target="_blank">
+                    Courses
+                </a>
+            </li>
+
+            <li>
+                <a href="https://jovian.com/learn/" target="_blank">Programs</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@freecodecamp" target="_blank">
+                    Youtube
+                </a>
+
+            </li>
+
+        </ul>
+
+        <span id="copyright">©2023,Jovian</span>
+    </div>
+
+</body>
+
+</html>

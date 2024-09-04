@@ -1,0 +1,180 @@
+
+html{
+    font-size:16px;
+    color:#1f1f29
+}
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+  font-size:1rem;
+  color:#444444;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+    color:#222222;
+}
+
+#pic{
+    height:40px;
+}
+#navbar{
+    margin:0;
+    padding:8px;
+
+}
+h1{
+    text-align: center;
+    font-size:2.5rem;
+}
+h2{
+    text-align: center;
+    font-size:2rem; 
+}
+h3{
+    
+    margin-top:0;
+    margin-bottom:4px;
+    padding-bottom:4px;
+    font-size:1.75rem;
+}
+h4{
+    font-size:1.5rem;
+}
+h5{
+    font-size:1.25rem;
+}
+h6{
+    font-size:1rem;
+}
+#logo{
+   object-fit: cover;
+   width:100%;
+    height:500px;
+}
+#application{
+    max-width:800px ;
+    margin:0 auto;
+    padding:0 8px;
+}
+.form-div{
+    margin:16px 0;
+}
+#application label{
+    font-weight:600 ;
+}
+.form-div textarea{
+    width:80%
+}
+.form-div input[type=radio]{
+    width:12px;
+    height:12px;
+}
+.form-div input[type="checkbox"]{
+    width:16px;
+    height:16px;
+    
+}
+.form-div input[type="submit"]{
+    color:white;
+    background-color:#60a5fa;
+    font-weight:500;
+  cursor: pointer;
+}
+#submit:hover{
+    background-color: #1d4ed8;
+}
+#application input,select, textarea{
+    padding:4px;
+    font-size:1.25rem;
+    margin-top:4px;
+   
+    border-radius:5px;
+    border:1px solid gray;
+}
+#job{
+    padding:0 8px;
+    margin:0 auto;
+    max-width:800px ;
+}
+#jobs-table{
+    width:100%;
+    border:1px solid gray;
+    border-collapse: collapse;
+}
+#about{
+    display:flex;
+    max-width:800px ;
+    margin:0 auto;
+    font-size:1rem;
+}
+
+.jobs-header-row th{
+    border:1px solid gray;
+    padding:8px;
+    color:#222222;
+    text-align:center;
+    background-color: #93c5fd;
+}
+tr:hover {background-color: #D6EEEE;}
+.jobs-data-row td{
+    border:1px solid gray;
+    padding:8px;
+   
+}
+#jobs-table tr:nth-child(odd){
+    background-color:#eff6ff ;
+}
+#jobs-table tr:nth-child(even){
+    background-color:white;
+}
+
+
+#ct{
+    width:50%;
+    padding:10px;
+    margin:0 auto;
+}
+a{
+    text-decoration: none;
+    color:#60a5fa;
+}
+a:hover,a:focus{
+    color:#1d4ed8
+}
+#ct2{
+    width:50%;
+    padding:10px;   
+}
+#team{
+    border:2px;
+    object-fit: cover;
+}
+.group{
+    color:gray;
+  margin-bottom:16px;
+}
+
+#footer{
+   
+    background-color:#FAFAFA;
+    padding:8px;
+    margin:4px,auto;
+    text-align:center;
+}
+#footer-links{
+    list-style: none;
+
+}
+#footer-links li{
+    display:inline;
+    padding-right:16px;
+}
+#copyright{
+    color:grey;
+    font-size:0.85rem;
+}
+#table{
+    border:1px solid black;
+}
